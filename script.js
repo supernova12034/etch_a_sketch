@@ -4,6 +4,8 @@
 //it seems to work, but there is only 1 div now, instead of 16.(fixed)
 //make container1 div into a grid.
 
+//We're here, continue configuring this project onto git.
+
 let btn1 = document.querySelector(".bt1");
 
 let cont = document.getElementById("container1");
