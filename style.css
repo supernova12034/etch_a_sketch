@@ -1,0 +1,33 @@
+#container1{
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(16,10%);  
+    gap: 15px;
+    padding-top: 10%;
+  }
+  
+  .bt1{
+    margin-left: 50%;
+  }
+  
+  /* .square:hover{
+    background-color: #3572dc;
+  } */
+  
+  
+  /* 
+  The only part of the div that changes is the
+  text...not the actual background color...
+  this might be because its being set in the DOM...
+  maybe we can use hover to change color in the DOM as well??
+  */
+  
+  /* 
+  #container1{
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-auto-rows: repeat(16,auto-fill); 
+    gap: 15px;
+  }
+  
+  */
