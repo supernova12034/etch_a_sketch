@@ -25,12 +25,13 @@ function sizePrompt(){
   function createGrid(userInput){
     for(i=0;i<=userInput;i++){
         let box = document.createElement('div');
-        box.style.height = '2vh';
-        box.style.width = '2vw';
+        box.style.height = '5vh';
+        box.style.width = '4vw';
         box.style.backgroundColor = 'red';
-        document.body.append(box);
+        parentDiv.append(box);
         console.log('test 1');
     }
+    document.body.append(parentDiv);
     // console.log('test 2');
   }
   // console.log('test 3');

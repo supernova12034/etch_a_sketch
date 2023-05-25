@@ -1,5 +1,8 @@
 .parentDiv{
-    /*We're here, trying to turn this
-    parent div into a css grid. inside which,
-    we'll append all the little divs. */
+    /*We're here, so far so good, now trying
+    to make our grid pattern 2 dimensional...so 5x5 grid instead of 
+    just a 5 divs vertically...*/
+    display: grid;
+
+    grid-gap: 15%;
 }
