@@ -5,7 +5,11 @@
 user wants.
 ---Creates a grid that size with 1 particular color upon button click.
     (There need to be a bunch of steps in here so that the divs are an actual
-      grid, arranged and sized like a grid.)
+      grid, arranged and sized like a grid. We might need to turn a parent 
+      div into an actual grid using css grid. And then append the 
+      newly created little divs into the parent div.)
+
+
 -After hovering over individual boxes, the grid changes color
 -A different button resets grid to original color.
 */
@@ -15,6 +19,9 @@ user wants.
 function sizePrompt(){
   let gridSize = prompt('Enter the size of the square grid you want');
   
+  let parentDiv = document.createElement('div');
+  parentDiv.className = 'parentDiv';
+
   function createGrid(userInput){
     for(i=0;i<=userInput;i++){
         let box = document.createElement('div');
