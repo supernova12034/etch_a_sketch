@@ -22,7 +22,11 @@ function sizePrompt(){
   
 
   function createGrid(userInput){
-/*-create userInput number of rows
+    let mainDiv = document.createElement('div');
+    mainDiv.style.display = 'grid';
+    mainDiv.style.gap = '5px';
+
+    /*-create userInput number of rows
  -create userInput number of columns
  -create userInput* userInput number of divs
   -Append the new divs.
