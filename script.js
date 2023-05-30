@@ -26,6 +26,13 @@ function sizePrompt(){
     mainDiv.style.display = 'grid';
     mainDiv.style.gap = '5px';
 
+    for(let i = 0; i<userInput; i++){
+    var rows = document.createElement('div');
+    var columns = document.createElement('div');
+      
+  }
+    
+
     /*-create userInput number of rows
  -create userInput number of columns
  -create userInput* userInput number of divs
