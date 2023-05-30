@@ -19,29 +19,17 @@ user wants.
 function sizePrompt(){
   let gridSize = prompt('Enter the size of the square grid you want');
   
-  let parentDiv = document.createElement('div');
-  parentDiv.className = 'parentDiv';
-  parentDiv.style.gridColumn = `1/${gridSize}`; //numerical way to set number of columns or rows?
-  parentDiv.style.gridRow = `1/${gridSize}`; //This didnt work.
+  
 
   function createGrid(userInput){
-    for(i=0;i<=userInput*userInput;i++){
-        let box = document.createElement('div');
-        box.style.height = '5vh';
-        box.style.width = '4vw';
-        box.style.backgroundColor = 'red';
-        parentDiv.append(box);
-        console.log('test 1');
-        /* We're here.
-        Is there some way to control how many rows
-        and columns are created via javascript? 
-        -create 5 rows
-        -create 5 columns
-        -create 5x5 divs and put them in.
-        */
-    }
-    document.body.append(parentDiv);
-    // console.log('test 2');
+/*-create userInput number of rows
+ -create userInput number of columns
+ -create userInput* userInput number of divs
+  -Append the new divs.
+*/
+
+    
+  
   }
   // console.log('test 3');
   createGrid(gridSize); 
