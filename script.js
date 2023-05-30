@@ -28,10 +28,18 @@ function sizePrompt(){
 
     for(let i = 0; i<userInput; i++){
     var rows = document.createElement('div');
+    rows.style.backgroundColor = 'red';
+    rows.style.height = '5vh';
+    rows.style.width = '5vw';
+    mainDiv.append(rows);
+
     var columns = document.createElement('div');
-      
+    columns.style.backgroundColor = 'red';
+    rows.style.height = '5vh';
+    rows.style.width = '5vw';
+    mainDiv.append(columns);
   }
-    
+    //we're here, making good progress, now have to append mainDiv into body.  
 
     /*-create userInput number of rows
  -create userInput number of columns
