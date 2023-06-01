@@ -25,6 +25,16 @@ function sizePrompt(){
     let mainDiv = document.createElement('div');
     mainDiv.style.display = 'grid';
     mainDiv.style.gap = '5px';
+    //We're here.
+    //how to create rows and columns in your grid dynamically?
+    //Maybe create functions for creating one row and one column one at a time,
+    //and calling said function as many times as the userInput? Via a loop?
+    function createRow(userInput){
+     
+    }
+    function createColumn(userInput){
+
+    }
 
     for(let i = 0; i<userInput; i++){
     var rows = document.createElement('div');
@@ -38,6 +48,7 @@ function sizePrompt(){
     rows.style.height = '5vh';
     rows.style.width = '5vw';
     mainDiv.append(columns);
+    document.body.append(mainDiv);
   }
     //we're here, making good progress, now have to append mainDiv into body.  
 
